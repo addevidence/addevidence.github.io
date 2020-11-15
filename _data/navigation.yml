@@ -1,5 +1,7 @@
+# this data goes into nav html
 - name: Home
   link: /
+# name and link, any term followed by ":" will be item that html references
 - name: About
   link: /about.html
 - name: Blog

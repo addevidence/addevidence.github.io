@@ -1,14 +1,20 @@
+<!-- creates a layout that can be applied to all pages
+if those pages specify this layout in their header -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <!-- every page has some default var, including title -->
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- adds the repeated page style in using a css made from scss -->
     {% feed_meta %}
     {% seo %}
+    <!-- setting up rss feed and seo, one of last steps -->
   </head>
   <body>
-    {% include navigation.html %}
+    {% include navigation.html %} <!-- adds menu into page -->
     {{ content }}
   </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: default #picking a template lauout I created in _layouts folder
+layout: default
 title: About
 ---
 # About page

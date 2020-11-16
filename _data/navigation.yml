@@ -1,10 +1,16 @@
-# this data goes into nav html
-- name: Home
+- name: Top
   link: /
-# name and link, any term followed by ":" will be item that html references
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Setup
+  link: /setup.html
+- name: Test
+  link: /test.html
+- name: Design
+  link: /design.html
+- name: Structure
+  link: /structure.html
+- name: Audit
+  link: /audit.html
+- name: Map
+  link: /map.html
+- name: Train
+  link: /train.html
